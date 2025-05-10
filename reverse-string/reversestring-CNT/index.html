@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse String</title>    
+    <title>Reverse String</title>
+    <style>
+        #invertirBtn {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>    
 </head>
 <body>
     <h1>Invertir una cadena de texto</h1>
@@ -11,7 +17,7 @@
     <label for="inputText">Ingresa una cadena:</label>
     <input type="text" id="inputText" placeholder="Escribe aquí" />
 
-    <button onclick="invertirCadena()">Invertir</button>
+    <button id="invertirBtn">Cadena válida</button>
 
     <h2>Resultado:</h2>
     <p id="resultado"></p>
